@@ -1,0 +1,55 @@
+body{
+    background-color: #f0f8ff;
+    margin:2%;
+}
+.cal{
+ color: #06425C;
+ border-spacing: 0;
+ border: 2px solid black;
+ border-radius:0 0 25px 25px ;
+ height: 300px;
+}
+table caption{
+	text-transform: uppercase;
+	background-color: #666666;
+	color:#ffffff;
+	font-size: 150%;
+    border-radius: 25px 25px 0  0;
+}
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
+tr:nth-child(even) {
+	background: #CDBB79;
+}
+tbody>tr:first-child>td:first-child{
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+	color:rgba(0,0,0,.25);
+}
+.odd{
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+	color:rgba(0,0,0,.25); 
+}
+th,td{
+    margin: 2%;
+    padding-bottom: 2px;
+
+}
+tr:last-child>td:last-child{
+    border-radius: 0 0 25px;
+}
+tr:last-child>td:first-child{
+    border-radius:0 0 0 25px;
+}
+.cal td{
+	width:75px;
+	height:75px;
+	vertical-align:top;
+    
+}
+span{
+    visibility: hidden;
+}
+td:hover>span{
+    visibility: visible;
+}
